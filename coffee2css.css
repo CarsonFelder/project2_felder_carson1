@@ -1,0 +1,93 @@
+#falling-coffee {
+    -webkit-animation: fallingCoffee 1.5s;
+    -moz-animation: fallingCoffee 1.5s;
+    -o-animation: fallingCoffee 1.5s;
+    -ms-animation: fallingCoffee 1.5s;
+  }
+
+  @-webkit-keyframes fallingCoffee {
+    from {
+      top:-800px;
+    }
+    to {
+      top: 50px;
+    }
+    } 
+
+    @-moz-keyframes fallingCoffee {
+    from {
+      top:-800px;
+    }
+    to {
+      top: 50px;
+    }
+    }
+
+    @-o-keyframes fallingCoffee {
+    from {
+      top:-800px;
+    }
+    to {
+      top: 50px;
+    }
+    }
+
+    @keyframes fallingCoffee {
+    from {
+      top:-800px;
+    }
+    to {
+      top: 50px;
+    }
+    }
+
+    #rising-coffee {
+    -webkit-animation: risingCoffee 1.6s;
+    -moz-animation: risingCoffee 1.6s;
+    -o-animation: risingCoffee 1.6s;
+    -ms-animation: risingCoffee 1.6s;
+    }
+
+    @-webkit-keyframes risingCoffee {
+    from {
+      top:100px;
+      left:0px;
+    }
+    to {
+      top: 0px;
+      left:0px;
+    }
+    } 
+
+    @-moz-keyframes risingCoffee {
+    from {
+      top:100px;
+      left:0px;
+    }
+    to {
+      top: 0px;
+      left:0px;
+    }
+    }
+
+    @-o-keyframes risingCoffee {
+    from {
+      top:100px;
+      left:0px;
+    }
+    to {
+      top: 0px;
+      left:0px;
+    }
+    }
+
+    @keyframes risingCoffee {
+    from {
+      top:100px;
+      left:0px;
+    }
+    to {
+      top: 0px;
+      left:0px;
+    }
+    }
